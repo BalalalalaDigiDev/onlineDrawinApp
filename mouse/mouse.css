@@ -1,0 +1,25 @@
+body{
+    background-color: #eeeeee;
+    color: #191919;
+    font-family: Helvetica;
+}
+
+canvas {
+  border-style: solid;
+  border-width: 1px;
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}

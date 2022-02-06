@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diujos con teclas</title>
+    <link rel="stylesheet" href="mouse.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <h1>Diuja lineas reactas haciendo click y arrastrando</h1>
+    <p>
+        Selecciona un color:
+    <div>
+        <input type="color" id="colorpicker"  style="width:30%;">
+        <input type="range" min="1" max="100" value="01" id="barra_color">
+        <button class="btn"><i class="fa fa-download" id="boton"></i> Bajameste</button>
+    </div>
+    <br/>
+    <canvas width="1130" height="636" id="area"></canvas>
+    <p>Asi queda tu dibujo</p>
+    <script src="Eventos_mouse.js"></script>
+</body>
+</html>
